@@ -6,7 +6,13 @@
 
     <groupId>net.fleck</groupId>
     <artifactId>test-github-maven-flow</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0-0</version>
+
+    <scm>
+        <url>https://github.com/a1flecke/test-github-maven-flow</url>
+        <connection>scm:git:git://github.com/a1flecke/test-github-maven-flow.git</connection>
+        <developerConnection>scm:git:git@github.com:a1flecke/test-github-maven-flow.git</developerConnection>
+    </scm>
 
     <distributionManagement>
         <repository>
