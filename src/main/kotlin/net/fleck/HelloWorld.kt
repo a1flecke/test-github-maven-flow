@@ -3,8 +3,8 @@ package net.fleck
 class HelloWorld {
     fun hello(name:String) = "Hello $name"
     fun anotherFunction(name: String) = "This is a good change: $name"
-    fun uselessIfElse() :String = if(true)
-            "It was true"
-    else
-            "False"
+    fun endlessForLoop() {
+        for (x in 0 until 10 step -2)
+            println("Printing $x")
+    }
 }
