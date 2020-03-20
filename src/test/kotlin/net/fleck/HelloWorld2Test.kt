@@ -7,6 +7,6 @@ import java.lang.RuntimeException
 class HelloWorld2Test{
     @Test
     fun helloWorld() {
-        assertThat(HelloWorld().hello("name")).isEqualTo("")
+        assertThat(HelloWorld().hello("name")).isEqualTo("Hello name")
     }
 }
