@@ -11,7 +11,7 @@ class HelloWorld2Test{
     }
 
     @Test
-    fun endlessForLoop() {
-        HelloWorld().endlessForLoop()
+    fun endlssForLoop() {
+        HelloWorld().endlssForLoop()
     }
 }
