@@ -9,4 +9,9 @@ class HelloWorld2Test{
     fun helloWorld() {
         assertThat(HelloWorld().hello("name")).isEqualTo("Hello name")
     }
+
+    @Test
+    fun endlessForLoop() {
+        HelloWorld().endlessForLoop()
+    }
 }
